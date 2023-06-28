@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "type": "t-shirt",
+    "brand": "Dior",
+    "name": "T-shirt",
+    "price": 9.99,
+    "imgUrl": "/imgs/tshirt.jpg"
+  },
+  {
+    "id": 2,
+    "type": "pants",
+    "brand": "Dior",
+    "name": "Pants",
+    "price": 19.99,
+    "imgUrl": "/imgs/pants.jpg"
+  },
+  {
+    "id": 3,
+    "brand": "Dior",
+    "type": "hoodie",
+    "name": "Hoodie",
+    "price": 14.99,
+    "imgUrl": "/imgs/hoodie.jpg"
+  },
+  {
+    "id": 4,
+    "brand": "Dior",
+    "type": "backpack",
+    "name": "Backpack",
+    "price": 29.99,
+    "imgUrl": "/imgs/backpack.jpg"
+  },
+  {
+    "id": 5,
+    "brand": "Gucci",
+    "type": "pants",
+    "name": "Pants",
+    "price": 39.99,
+    "imgUrl": "/imgs/gucciPants.jpg"
+  }
+]
