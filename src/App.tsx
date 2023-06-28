@@ -15,6 +15,13 @@ import { TshirtsDior } from './pages/TshirtsDior'
 import { Backpacks } from './pages/Backpacks'
 import { BackpacksDior } from './pages/BackpacksDior'
 import { PantsGucci } from './pages/PantsGucci'
+import { BackpacksGucci } from './pages/BackpacksGucci'
+import { HoodieGucci } from './pages/HoodieGucci'
+import { TshirtsGucci } from './pages/TshirtsGucci'
+import { BackpacksPrada } from './pages/BackpacksPrada'
+import { HoodiePrada } from './pages/HoodiePrada'
+import { PantsPrada } from './pages/PantsPrada'
+import { TshirtsPrada } from './pages/TshirtsPrada'
 
 function App() {
   return (
@@ -32,10 +39,17 @@ function App() {
             <Route path="/store/hoodie" element={<Hoodie />} />
             <Route path="/store/tshirts" element={<Tshirts />} />
             <Route path="/store/backpacks/dior-backpacks" element={<BackpacksDior />} />
+            <Route path="/store/backpacks/gucci-backpacks" element={<BackpacksGucci />} />
+            <Route path="/store/backpacks/prada-backpacks" element={<BackpacksPrada />} />
             <Route path="/store/tshirts/dior-tshirts" element={<TshirtsDior />} />
+            <Route path="/store/tshirts/gucci-tshirts" element={<TshirtsGucci />} />
+            <Route path="/store/tshirts/prada-tshirts" element={<TshirtsPrada />} />
             <Route path="/store/pants/dior-pants" element={<PantsDior />} />
-            <Route path="/store/hoodie/dior-hoodie" element={<HoodieDior />} />
             <Route path="/store/pants/gucci-pants" element={<PantsGucci />} />
+            <Route path="/store/pants/prada-pants" element={<PantsPrada />} />
+            <Route path="/store/hoodie/dior-hoodie" element={<HoodieDior />} />
+            <Route path="/store/hoodie/gucci-hoodie" element={<HoodieGucci />} />
+            <Route path="/store/hoodie/prada-hoodie" element={<HoodiePrada />} />
           </Routes>
         </Container>
       </ShoppingCartProvider>
