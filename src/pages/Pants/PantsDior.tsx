@@ -1,13 +1,15 @@
 import { Col, Row } from "react-bootstrap";
-import storeItems from "../data/items.json";
-import { StoreItem } from "../components/StoreItem";
+import storeItems from "../../data/items.json";
+import { StoreItem } from "../../components/StoreItem";
 
-export function Tshirts() {
-  const filteredItems = storeItems.filter((item) => item.type === "t-shirt");
+export function PantsDior() {
+  const filteredItems = storeItems.filter(
+    (item) => item.type === "pants" && item.brand === "Dior"
+  );
 
   return (
     <>
-      <h1>T-Shirts</h1>
+      <h1>Dior Pants</h1>
 
       <Row md={2} xs={1} lg={3} className="g-3">
         {filteredItems.map((item) => (
