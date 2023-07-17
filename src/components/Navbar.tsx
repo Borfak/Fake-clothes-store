@@ -12,7 +12,7 @@ export function Navbar() {
       <Container>
         <Nav className="me-auto">
           <Nav.Link to="/" as={NavLink}>
-            Home
+           Home
           </Nav.Link>
             <DropdownMain />
           <Nav.Link to="/about" as={NavLink}>

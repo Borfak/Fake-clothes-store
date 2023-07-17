@@ -40,6 +40,7 @@ const About: React.FC = () => {
         Thank you for choosing our clothing shop. We look forward to helping you
         find the perfect outfit!
       </p>
+      <hr />
       <h2>
         <b>Meet our team</b>
       </h2>
@@ -119,7 +120,7 @@ const About: React.FC = () => {
       <p className="mt-2">
         If you have read this far, why not{" "}
         <a
-          style={{ textDecoration: "none", color: "red" }}
+          style={{ textDecoration: "none", fontWeight: "bold", color: "black" }}
           href="mailto:artemboichuk10@gmail.com"
         >
           reach out to us?

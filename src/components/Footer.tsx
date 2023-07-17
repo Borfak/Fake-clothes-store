@@ -6,8 +6,8 @@ const Footer: React.FC = () => {
     <footer className="footer">
       <div className="container">
         <p>&copy; {new Date().getFullYear()} Fake Clothes Shop</p>
-        <p>Address: 123 Fashion Street, City</p>
-        <p>Contact: info@example.com</p>
+        <p>Address: 123 Fashion Street, Paris</p>
+        <p>Contact: fake@shop.com</p>
       </div>
     </footer>
   );
