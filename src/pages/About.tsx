@@ -48,7 +48,7 @@ const About: React.FC = () => {
           className=" img-fluid"
           style={{ maxWidth: "20rem", borderRadius: "0.5rem" }}
           src="/imgs/me.jpg"
-          alt="🇺🇦"
+          alt="🇺"
         />
         <div>
           <h3>
@@ -66,7 +66,7 @@ const About: React.FC = () => {
           className=" img-fluid"
           style={{ maxWidth: "20rem", borderRadius: "0.5rem" }}
           src="/imgs/ArtemiusBoichukius.png"
-          alt="🇺🇦"
+          alt="🇺"
         />
         <p>
           <h3>
@@ -84,7 +84,7 @@ const About: React.FC = () => {
           className=" img-fluid"
           style={{ maxWidth: "20rem", borderRadius: "0.5rem" }}
           src="/imgs/Artemiel.png"
-          alt="🇺🇦"
+          alt="🇺"
         />
         <p>
           <h3>
@@ -103,7 +103,7 @@ const About: React.FC = () => {
           className=" img-fluid"
           style={{ maxWidth: "20rem", borderRadius: "0.5rem" }}
           src="/imgs/chingChong.png"
-          alt="🇨🇳"
+          alt=""
         />
         <p>
           <h3>
