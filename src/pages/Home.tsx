@@ -1,6 +1,5 @@
 import { Container } from 'react-bootstrap';
 import Slider from "../components/Slider";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 export function Home() {
   return (

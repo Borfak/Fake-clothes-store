@@ -1,10 +1,9 @@
 import { NavLink } from "react-router-dom";
-import { NavDropdown } from "react-bootstrap";
 import { DropdownSubmenu, NavDropdownMenu } from "react-bootstrap-submenu";
 
 type Props = {};
 
-const DropdownMain = (prop: Props) => {
+const DropdownMain = (_prop: Props) => {
   return (
     <NavDropdownMenu className="d-flex" title="Store">
       <DropdownSubmenu title="Pants">
