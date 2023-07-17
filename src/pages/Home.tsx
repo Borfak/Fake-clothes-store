@@ -39,7 +39,7 @@ export function Home() {
           <img
             height={300}
             width="auto"
-            src="/public/imgs/pantsVector.svg"
+            src="/imgs/pantsVector.svg"
             alt=""
           />
           <div
@@ -85,7 +85,7 @@ export function Home() {
           <img
             height={300}
             width="auto"
-            src="/public/imgs/tshirtVector.svg"
+            src="/imgs/tshirtVector.svg"
             alt=""
           />
         </div>
@@ -93,7 +93,7 @@ export function Home() {
           <img
             height={300}
             width="auto"
-            src="/public/imgs/hoodieVector.svg"
+            src="/imgs/hoodieVector.svg"
             alt=""
           />
           <div
@@ -140,7 +140,7 @@ export function Home() {
           <img
             height={300}
             width="auto"
-            src="/public/imgs/backpackVector.svg"
+            src="/imgs/backpackVector.svg"
             alt=""
           />
         </div>
