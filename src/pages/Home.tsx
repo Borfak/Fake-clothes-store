@@ -2,30 +2,34 @@ import { Container, Nav } from 'react-bootstrap';
 import Slider from "../components/Slider";
 import { NavLink } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
+import { spawn } from 'child_process';
 
 export function Home() {
+
   return (
     <>
       <Container>
         <h1>
           <b>NEW COLECTIONS</b>
         </h1>
-        <Slider />
+        <div className='mt-5'>
+          <Slider />
+        </div>
         <div className="text-center">
           <TypeAnimation
             className="mt-5 mb-5 text-uppercase"
             sequence={[
               "Check out our Pants",
-              1000,
+              2000,
               "Check out our T-Shirts",
-              1000,
+              2000,
               "Check out our Hoodies",
-              1000,
+              2000,
               "Check out our Backpacks",
-              1000,
+              2000,
             ]}
             wrapper="span"
-            speed={30}
+            speed={2}
             style={{
               fontSize: "3em",
               display: "inline-block",
@@ -36,12 +40,7 @@ export function Home() {
         </div>
 
         <div className="d-flex justify-content-md-between mt-5 flex-md-row flex-column">
-          <img
-            height={300}
-            width="auto"
-            src="/imgs/pantsVector.svg"
-            alt=""
-          />
+          <img height={300} width="auto" src="/imgs/pantsVector.svg" alt="" />
           <div
             style={{
               maxWidth: "60ch",
@@ -82,20 +81,10 @@ export function Home() {
               </Nav.Link>
             </p>
           </div>
-          <img
-            height={300}
-            width="auto"
-            src="/imgs/tshirtVector.svg"
-            alt=""
-          />
+          <img height={300} width="auto" src="/imgs/tshirtVector.svg" alt="" />
         </div>
         <div className="d-flex justify-content-md-between mt-5 flex-md-row flex-column">
-          <img
-            height={300}
-            width="auto"
-            src="/imgs/hoodieVector.svg"
-            alt=""
-          />
+          <img height={300} width="auto" src="/imgs/hoodieVector.svg" alt="" />
           <div
             style={{
               maxWidth: "60ch",
@@ -145,18 +134,19 @@ export function Home() {
           />
         </div>
         <p
-          className="mt-5 text-center"
+          className="mt-5 mb-5 text-center"
           style={{
             textTransform: "uppercase",
             fontWeight: "bold",
             fontSize: "1.50rem",
           }}
         >
-          There's only black  and  
+          There's only black and
           <span style={{ color: "white", backgroundColor: "black" }}>
-             white
-          </span>
-          white, the rest are shades.
+            {" "}
+            white{" "}
+          </span>{" "}
+          , the rest are shades.
         </p>
       </Container>
     </>
