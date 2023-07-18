@@ -2,7 +2,6 @@ import { Container, Nav } from 'react-bootstrap';
 import Slider from "../components/Slider";
 import { NavLink } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
-import { spawn } from 'child_process';
 
 export function Home() {
 
