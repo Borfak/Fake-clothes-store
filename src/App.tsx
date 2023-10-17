@@ -25,6 +25,12 @@ import { Gucci } from './pages/Brands/Gucci';
 import { Dior } from './pages/Brands/Dior';
 import { Prada } from './pages/Brands/Prada';
 import Footer from './components/Footer';
+import * as Swetrix from 'swetrix'
+
+
+Swetrix.init('APrqTsDRdhpd')
+Swetrix.trackViews()
+
 
 function App() {
   return (
@@ -92,5 +98,6 @@ function App() {
     </>
   );
 }
+
 
 export default App;

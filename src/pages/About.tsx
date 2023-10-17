@@ -64,7 +64,7 @@ const About: React.FC = () => {
       </div>
       <div className="d-flex gap-2 mt-4 flex-md-row flex-column">
         <img
-          className=" img-fluid"
+          className="img-fluid"
           style={{ maxWidth: "20rem", borderRadius: "0.5rem" }}
           src="/imgs/ArtemiusBoichukius.png"
           alt=""
